@@ -9,6 +9,9 @@ A Discord bot that allows interaction with the VRChat API.
 - **Authentication**: Manage authentication using a code system.
 - **Slash Commands**: 
   - `/grade`: Get your VRChat rank.
+  - `/vrchat setup`: Post the verification panel in a server channel.
+  - `/vrchat link`: Start the Discord and VRChat account linking flow.
+  - `/vrchat status`: View the current link state for your Discord account.
 
 ### Dependencies
 
@@ -27,6 +30,7 @@ A Discord bot that allows interaction with the VRChat API.
 6. Rerun the `auth.js` to get asked for 2FA
 7. Add the 2FA code on the terminal
 8. The `config.json` file is generated and can be used !
+9. Set your Discord bot token in `config.TOKEN` or the `DISCORD_TOKEN` environment variable.
 
 > **Note:** Do not work on the auth.js file, create a new file like bot.js to use the API
 
@@ -60,6 +64,12 @@ You can delete the `username` and `password` fields and keep the rest. This file
 Add this code on your .js file: `const config = require('./config.json');` to get your auth config
 
 Enjoy coding !
+
+## VRChat Linking
+
+Use `/vrchat setup` as the server owner or a user with Manage Server to choose the channel where the verification panel should live.
+
+Users can then click the panel button, paste their VRChat profile link, add the generated 6-character code to their VRChat bio, and press the check button to finish linking.
 
 ### License
 

@@ -1,0 +1,25 @@
+{
+  "guilds": {
+    "1531521121885618297": {
+      "verificationChannelId": "1532111253932085432",
+      "verificationMessageId": "1532386546320150531",
+      "linkRoleId": "1531521121898463354",
+      "groupId": "grp_fd217b9d-9c84-48e3-a8ee-b50189c8f0d8",
+      "groupName": "Spectrum",
+      "groupPrivacy": "default",
+      "groupLinkedAt": "2026-07-30T13:45:01.521Z",
+      "groupJoinStatus": "joined",
+      "ageGateEnabled": true,
+      "nicknameMode": "username-paren"
+    }
+  },
+  "pending": {},
+  "links": {
+    "707092267277615105": {
+      "discordUserId": "707092267277615105",
+      "vrchatUserId": "usr_6c50a5f8-38fb-4850-a72a-090df6f755ef",
+      "displayName": "__salemmm",
+      "linkedAt": "2026-07-30T13:52:01.575Z"
+    }
+  }
+}
